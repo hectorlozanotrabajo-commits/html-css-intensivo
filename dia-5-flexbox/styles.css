@@ -1,0 +1,18 @@
+.flex-container {
+  display: flex; /* activa el modo flexbox */
+  justify-content: space-between; /* distribuye los ítems con espacio entre ellos */
+  align-items: center; /* alinea los ítems verticalmente al centro */
+  flex-direction: row; /* organiza los ítems en una fila */
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 2px solid #ccc;
+}
+
+.item {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  text-align: center; /* centra el texto dentro del ítem */
+  border-radius: 5px;
+}
