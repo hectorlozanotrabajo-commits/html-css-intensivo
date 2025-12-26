@@ -1,0 +1,18 @@
+.flex-container {
+  display: flex;
+  justify-content: space-around;   /* Distribuye espacio alrededor de los ítems */
+  align-items: center;
+  flex-direction: row;
+  background-color: #f2f2f2;
+  padding: 20px; /* Espacio interno */
+  border: 2px solid #ccc;
+}
+
+.item {
+  background-color: #4CAF50;
+  color: white;
+  padding: 40px; /* Espacio de las cajas */
+  margin: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
